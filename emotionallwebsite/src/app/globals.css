@@ -1,6 +1,7 @@
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #ffffff;
+  font-family: FiraSans;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -8,6 +9,15 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+@font-face{
+  font-family: FiraSans;
+  src:url('../../public/fonts/FiraSans-SemiBold.ttf')
+}
+
+.mono-font {
+  font-family: var(--font-fira-sans), sans-serif;
 }
 
 html,
@@ -18,10 +28,11 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  font-family: var(--font-fira-sans), sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: default;
 }
 
 * {

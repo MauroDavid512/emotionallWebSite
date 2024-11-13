@@ -1,0 +1,36 @@
+.container{
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  padding: 10px 0;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.container.scrolled{
+  background-color: #0669D5;
+  transition: 0.5s;
+}
+
+.leftSide{
+  width: 50%;
+  margin-left: 20px;
+}
+
+.rightSide{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  font-size: 33px;
+}
+
+.section{
+  color: rgba(255, 255, 255, 0.509);
+  transition: 0.5s;
+}
+
+.section:hover{
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}

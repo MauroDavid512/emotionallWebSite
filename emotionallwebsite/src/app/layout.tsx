@@ -12,6 +12,16 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const firaSans = localFont({
+  src: "./fonts/FiraSans-Regular.ttf",
+  variable: "--font-fira-sans",
+  weight: "400",
+});
+const firaSansBold = localFont({
+  src: "./fonts/FiraSans-Bold.ttf",
+  variable: "--font-fira-sans-bold",
+  weight: "700",
+});
 
 export const metadata: Metadata = {
   title: "Emotionall",
@@ -25,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${firaSans.variable} ${firaSansBold.variable}`}>
         {children}
       </body>
     </html>

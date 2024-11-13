@@ -1,0 +1,41 @@
+.container{
+  background-color: white;
+  width: 100%;
+  margin-top: 225px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+}
+
+.title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0669D5;
+  margin-bottom: 30px;
+}
+
+.text{
+  font-size: 25px;
+  color: #333333;
+  max-width: 700px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.a{
+  width: 300px;
+  margin: 50px auto;
+}
+
+.trialBtn{
+  background-color: #0669D5;
+  width: 300px;
+  height: 70px;
+  border-radius: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
