@@ -5,13 +5,13 @@ import StartJourney from "./home/StartJourney";
 import SummaryCards from "./home/SummaryCards";
 
 export default function Home() {
-    return (
-        <>
-            <VideoComponent />
-            <Summary />
-            <Benefits />
-            <StartJourney />
-            <SummaryCards />
-        </>
-    );
+  return (
+    <>
+      <VideoComponent />
+      <Summary />
+      <Benefits />
+      <StartJourney />
+      <SummaryCards />
+    </>
+  );
 }

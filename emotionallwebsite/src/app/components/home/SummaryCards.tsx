@@ -9,11 +9,11 @@ export default function SummaryCards() {
 
   const text3 = 'Emotional Intelligence can’t be practiced accurately if we don’t first acknowledge the importance of knowing what we’re feeling. If we don’t know exactly how we feel and embrace our own emotions, it would be harder to manage our emotions and recognize emotions in others. So take a deep breath this weekend and think, how are you feeling?';
 
-    return (
-        <div className={styles.container}>
-          <SummaryCard image={'/images/Image-1.jpg'} description={text1}/>
-          <SummaryCard image={'/images/Image-2.jpg'} description={text2}/>
-          <SummaryCard image={'/images/Image-3.jpg'} description={text3}/>
-        </div>
-    );
+  return (
+    <div className={styles.container}>
+      <SummaryCard image={'/images/Image-1.jpg'} description={text1} />
+      <SummaryCard image={'/images/Image-2.jpg'} description={text2} />
+      <SummaryCard image={'/images/Image-3.jpg'} description={text3} />
+    </div>
+  );
 }
