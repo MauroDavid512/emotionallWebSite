@@ -3,6 +3,7 @@ import Summary from "./home/Summary";
 import Benefits from "./home/Benefits";
 import StartJourney from "./home/StartJourney";
 import SummaryCards from "./home/SummaryCards";
+import ContactUs from "./home/ContactUs";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Benefits />
       <StartJourney />
       <SummaryCards />
+      <ContactUs />
     </>
   );
 }
